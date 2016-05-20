@@ -1,0 +1,18 @@
+/*Created by webDevAnkush on 20/5/16.*/
+/*This project is created for upload file with DropzoneJS. DropzoneJS is an open source library that provides drag’n’drop file uploads with image previews.
+Traditional way of file uploading is headache for developer so using dropzoneJS is beneficial.
+Dropzone provides various very useful feature for more info follow : http://www.dropzonejs.com*/
+
+.content {
+    margin-top: 12%;
+}
+
+.content > .panel {
+    margin: auto 0;
+    box-shadow: 10px 10px 15px #888888;
+
+}
+
+.dropzone {
+    margin-left: 0px;
+}

@@ -1,0 +1,66 @@
+<!--Created by webDevAnkush on 20/5/16.-->
+
+<!--This project is created for upload file with "dropzoneJS".
+DropzoneJS is an open source library that provides drag’n’drop file uploads with image previews.
+Traditional way of file uploading is headache for developer so using dropzoneJS is beneficial.
+Dropzone provides various very useful feature for more info follow : http://www.dropzonejs.com-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--    Bootstrap stylesheet cdn-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!--    Dropzone stylesheet local file-->
+    <link href="css/dropzone.css" rel="stylesheet" type="text/css">
+
+    <!--   custom local stylesheet-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <!--Jquery minified script cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <!--Bootstrap minified script cdn-->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!--Dropzone local script -->
+    <script src="js/dropzone.js"></script>
+    <!--custom local script -->
+    <script src="js/script.js"></script>
+
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-offset-3 col-lg-6 content">
+            <div class="panel panel-primary">
+                <div class="panel-heading text-center"><h2> File upload With DropzoneJS </h2></div>
+                <div class="panel-body">
+                    <!--   dropzone drag drop portion-->
+                    <div id="dropzone">
+                        <!-- Write your api service name at action property of form. Here I am going to write action="/fileUpload"-->
+                        <form action="/fileUpload" class="dropzone needsclick" id="my-dropzone">
+
+                            <div class="dz-message needsclick">
+                                Drop files here or click to upload.
+
+                            </div>
+
+                        </form>
+
+                        <!--form ends-->
+                    </div>
+
+                    <!--dropzone ends-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
