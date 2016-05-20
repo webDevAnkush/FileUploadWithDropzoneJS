@@ -9,3 +9,11 @@ This project is created for upload file with "dropzoneJS". DropzoneJS is an open
 3. html5
 4. css3
 5. jQuery
+
+#Proces to use
+1. Download and extract
+2. check your service name in index.html
+3. run it.
+
+
+So simple!!!
