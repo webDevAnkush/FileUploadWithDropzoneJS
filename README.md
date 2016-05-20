@@ -17,3 +17,6 @@ This project is created for upload file with "dropzoneJS". DropzoneJS is an open
 
 
 So simple!!!
+
+*Refer this link to use fileupload with Jquery 
+https://github.com/webDevAnkush/FileUploadWithJquery 
